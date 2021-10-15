@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rediff>
+	<signinBtn_Xpath>//*[@id='signin_info']/a[1]</signinBtn_Xpath>
+	<usernameTextbox_Xpath>//input[@id='login1']</usernameTextbox_Xpath>
+	<passwordTextbox_Xpath>//input[@id='password']</passwordTextbox_Xpath>>
+	<submit_Xpath>//input[@id='loginsubmit']</submit_Xpath>>
+	
+</rediff>
