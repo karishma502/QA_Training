@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	
+	<elementclick>//a[contains(text(),'Sign in')]</elementclick>
+	<entertext>//input[@id='login1']</entertext>
+	
+</menu>
