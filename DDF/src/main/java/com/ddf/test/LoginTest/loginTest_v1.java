@@ -15,6 +15,7 @@ public class loginTest_v1 extends BaseUI_V1 {
 		openURL("https://www.rediff.com/");
 		elementClick("//a[contains(text(),'Sign in')]");
 		enterText("//input[@id='login1']","U S E R N A M E");
+		System.out.println("test 1 run");
 		Thread.sleep(2000);
 		tearDown();
 	}
@@ -25,6 +26,8 @@ public class loginTest_v1 extends BaseUI_V1 {
 		invokeBrowser("chrome");
 		//invokeBrowser("firefox");
 		openURL("https://money.rediff.com/index.html");
+		System.out.println("test 2 run");
+		
 		tearDown();
 	}
 	
@@ -34,6 +37,7 @@ public class loginTest_v1 extends BaseUI_V1 {
 		invokeBrowser("chrome");
 		//invokeBrowser("firefox");
 		openURL("https://shopping.rediff.com/");
+		System.out.println("test 3 run");
 		tearDown();
 	}
 }
